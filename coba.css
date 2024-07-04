@@ -97,7 +97,7 @@ section {
     margin: 1px;
 }
 
-.about h2,h3 {
+.about h2,h3, h4 {
     word-spacing: 3px;
     font-size: 20px;
     text-align: justify;
