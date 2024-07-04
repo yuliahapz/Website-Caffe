@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family:"itim", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+.logo img {
+    height: 50px; 
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f39c12;
+}
+
+
+section {
+    padding: 20px;
+}
+
+.gallery img {
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    padding-bottom: 2rem;
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.overlay-button {
+    position: absolute;
+    border-radius: 3rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 7px 10px;
+    font-size: 12px;
+    border: 20%;
+    cursor:pointer;
+    transition: background-color 0.3s;
+}
+
+.overlay-button:hover {
+    background-color: rgba(255, 255, 255, 0,8);;
+}
+
+.about p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 25px;
+    text-align: justify;
+    margin: 1px;
+}
+
+.about h2,h3 {
+    word-spacing: 3px;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.about h1, a{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: grey;
+    text-decoration: none;
+}
+
+.menu {
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+#Contact {
+    padding: 3rem 0;
+    margin-bottom: 4rem;
+}
+
+.contact h3{
+    text-align: center;
+}
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap : 2rem;
+}
+
+
+.contact-form div {
+    margin-bottom: 1.4rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.75rem 1.3rem;
+    font-family: "itim", sans-serif;
+    background: whitesmoke;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+    resize: none;
+}
+
+.contact-form input::placeholder, 
+.contact-form textarea::placeholder {
+    color:gray;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline:none;
+    border:1px solid gray;
+}
+
+.contact-item {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.contact-item-icon {
+    width: 53px;
+    height: 53px;
+    background:ghostwhite;
+    border-radius: 9px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.contact-item-detail h4 {
+    margin-bottom:0.6rem;
+}
+
+/*Footer*/
+footer {
+    padding: 1rem;
+    background:ghostwhite;
+    text-align: center;
+}
+
+.footer-icons {
+    margin-bottom: 0.5rem;
+}
+
+.footer-icons a {
+    margin: 0 0.5rem;
+}
+
+.footer-icons svg {
+    fill:gray;
+}
+
+.footer-icons a:hover svg {
+    fill: black;
+}
+
